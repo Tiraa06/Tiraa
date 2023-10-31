@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    padding-left: 25px;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 30px;
+}
+.logo {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+}
+.menu {
+    padding-top:10px ;
+}
+.pilihan {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    display: flex;
+}
+.kotak1 {
+    width: 60%;
+    height: 400px;
+    padding-top: 20px;
+}
+.kotak2 {
+    width: 40%;
+    height: 400px;
+}
+.main .kotak1 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 20px; 
+}
+.main .kotak1 h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.main .kotak1 button {
+    padding: 20px 40px;
+    background-color: orange;
+    color:floralwhite;
+    font-size: 24px;
+    margin-left: 25px ;
+    border: none;
+    border-radius: 30px;
+    font-family: 'poppins', sans-serif;
+    
+}
+.main .kotak1 button:hover {
+    background-color: black;
+}
+.medsos {
+    display: flex;
+}
+.bagian2 {
+    display: flex;
+}
+.bagian2 .mangga {
+    width: 50%;
+    height: 700px;
+}
+.bagian2 .tulmang  {
+    width: 50%;
+    height: 700px;
+    padding-top: 250px;
+}
+.bagian2 .tulmang h1 {
+
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+.bagian2 .tulmang h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.gambar {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+
+.judul1  h1 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+.pepaya img {
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    left: 430px;
+    margin-top: 70px;
+}
+
+.polkadot1 img {
+    width: 300px;
+    height: 120px;
+    margin-top: 340px;
+
+}
+
+.polkadot2 img {
+    width: 300px;
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.otak1 img {
+    width: 80px;
+    position: absolute;
+    margin-top: 100px;
+    right: 200px;
+}
+
+.bulet2 {
+    display: flex;
+}
+
+.bulet img {
+    width: 130px;
+    margin-top: 100px;
+}
+
+.lambung1 img {
+  position: absolute;
+  left: 950px;
+}
+.bagian4 {
+    display: flex;
+}
+.bagian4 .huruf {
+    width: 40%;
+    height: 800px;
+}
+.bagian4 .eskrim .buletes1 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 230px;
+}
+.bagian4 .eskrim .krim {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+.bagian4 .eskrim .buletes2 {
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 620px;
+}
+.bagian4 .huruf h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 420px;
+}
+.bagian4 .huruf h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.bagian4 .huruf button {
+    padding: 20px 40px;
+    background-color: orange;
+    color:floralwhite;
+    font-size: 24px;
+    margin-left: 25px ;
+    border: none;
+    border-radius: 30px;
+    font-family: 'poppins', sans-serif;
+    
+}
+.bagian4 .huruf button:hover {
+    background-color: black;
+}
